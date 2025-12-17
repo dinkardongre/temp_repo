@@ -1,6 +1,6 @@
 
 
-
+https://www.notion.so/EMPLOYEE-DATASET-PRACTICE-QUESTIONS-2bfdb13379ef8061ac57ea5e1c72c4c6?source=copy_link
 
 Select * from employees
 
@@ -160,6 +160,7 @@ SELECT emp_name, salary,
        LAG(salary) OVER (ORDER BY salary) AS prev_salary,
        LEAD(salary) OVER (ORDER BY salary) AS next_salary
 FROM employees;
+
 
 
 
